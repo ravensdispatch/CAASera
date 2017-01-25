@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         edtLoginName = (EditText) findViewById(R.id.edtLoginName);
         edtPassword = (EditText) findViewById(R.id.edtPassword);
     }
